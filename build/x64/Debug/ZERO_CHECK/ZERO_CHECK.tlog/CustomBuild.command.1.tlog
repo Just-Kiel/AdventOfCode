@@ -1,0 +1,10 @@
+^C:\USERS\AURORE\DESKTOP\IMAC\2A\ADVENTOFCODE\BUILD\CMAKEFILES\5CAEC6A4CC77341E4334A76FA88C2741\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode -BC:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build/AdventOfCode.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
