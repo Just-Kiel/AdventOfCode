@@ -1,4 +1,0 @@
-C:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build/day1/CMakeFiles/day1.dir
-C:/Users/Aurore/Desktop/IMAC/2A/AdventOfCode/build/day1/CMakeFiles/ALL_BUILD.dir
