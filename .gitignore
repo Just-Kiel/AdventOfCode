@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+
+# Personalized files
+eigen
+build
+bin
+.vscode
+.devcontainer
+.clang-format
+.clang-tidy
+.gitattributes
+LICENSE
