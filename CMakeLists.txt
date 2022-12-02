@@ -43,4 +43,8 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 message(STATUS "day1 cmake part ..." )
 add_subdirectory(day1)
 
+# add myCode1
+message(STATUS "day2 cmake part ..." )
+add_subdirectory(day2)
+
 
