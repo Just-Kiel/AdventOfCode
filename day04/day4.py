@@ -30,7 +30,7 @@ for line in Lines:
         count += 1
 
 # expected : 526
-print("Total Common Areas : {}".format(count))
+print(f"Total Common Areas : {count}")
 
 print ("Day Four - Part Two !")
 
@@ -52,4 +52,4 @@ for line in Lines:
         countOverlaps += 1
 
 # expected : 886
-print("Total Overlaps : {}".format(countOverlaps))
+print(f"Total Overlaps : {countOverlaps}")
