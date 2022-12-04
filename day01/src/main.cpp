@@ -8,7 +8,7 @@ int main()
 {
     // PART ONE - DAY ONE
     std::string str = "";
-    std::fstream fin("../../../day1/src/elvesCalories.txt", std::fstream::in);
+    std::fstream fin("../../../day01/src/elvesCalories.txt", std::fstream::in);
 
     unsigned int elvesNb = 0;
     std::vector<int> sumCaloriesElves = {0};

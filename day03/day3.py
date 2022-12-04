@@ -1,5 +1,5 @@
 print ("Day Three - Part one !")
-fichier = open("day3/input.txt", "r")
+fichier = open("day03/input.txt", "r")
 
 Lines = fichier.readlines()
 

@@ -8,7 +8,7 @@ int main()
 {
     // PART ONE - DAY TWO
     std::string str = "";
-    std::fstream fin("../../../day2/src/strategyGuide.txt", std::fstream::in);
+    std::fstream fin("../../../day02/src/strategyGuide.txt", std::fstream::in);
 
     int totalScore = 0;
     int choiceScore = 0;

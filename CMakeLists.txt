@@ -38,7 +38,8 @@ file(MAKE_DIRECTORY ${PROJECT_BINARY_DIR}/output)
 # (optaional) put the binary files in this directory
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
-file(GLOB folders "${CMAKE_CURRENT_SOURCE_DIR}/day*")
+# file(GLOB folders "${CMAKE_CURRENT_SOURCE_DIR}/day*")
+file(GLOB folders "${CMAKE_CURRENT_SOURCE_DIR}/day01" "${CMAKE_CURRENT_SOURCE_DIR}/day02")
 
 foreach(folderPath ${folders})
     get_filename_component(folderName "${folderPath}" NAME)
