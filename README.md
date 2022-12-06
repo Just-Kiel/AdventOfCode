@@ -32,3 +32,6 @@ In Python
 
 ## Day Five Done
 In Python
+
+## Day Six Done
+In Python
