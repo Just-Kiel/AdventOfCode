@@ -35,3 +35,7 @@ In Python
 
 ## Day Six Done
 In Python
+
+## Day Seven
+### Part 1 Done
+In Python
