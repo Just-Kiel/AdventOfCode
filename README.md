@@ -39,3 +39,5 @@ In Python
 ## Day Seven
 ### Part 1 Done
 In Python
+### Part 2 Done
+In Python with [this help](https://github.com/jonathanpaulson/AdventOfCode/blob/master/2022/7.py)
