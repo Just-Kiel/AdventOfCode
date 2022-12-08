@@ -41,3 +41,7 @@ In Python
 In Python
 ### Part 2 Done
 In Python with [this help](https://github.com/jonathanpaulson/AdventOfCode/blob/master/2022/7.py)
+
+## Day Height
+### Part 1 Done
+In Python, struggle with indexes
