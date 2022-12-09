@@ -84,3 +84,63 @@ new_list = []
 [new_list.append(item) for item in tailMoves if item not in new_list]
 print(f"Positions visited : {len(new_list)}")
 # expected : 5878
+
+# ---------------------------------
+print ("Day Nine - Part Two !")
+
+rope = [Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0), Point(0, 0)]
+
+tailMoves2 = []
+
+for line in lines:
+    moves = [x for x in line.split(' ')]
+
+    moves = [moves[0] for i in range(int(moves[1]))]
+
+    # set moves of head
+    for move in moves:
+        if move == 'R':
+            rope[0] += right
+        elif move == 'L':
+            rope[0] += left
+        elif move == 'U':
+            rope[0] += up
+        elif move == 'D':
+            rope[0] += down
+
+        for i in range(1, len(rope)):
+            if abs(rope[i-1].col - rope[i].col) + abs(rope[i-1].row-rope[i].row) > 2:
+                # si h.row > tail.row and h.col > tail.col : U + R
+                # si h.row > tail.row and tail.col > h.col : U + L
+                # si tail.row > h.row and h.col > tail.col : D + R
+                # else : D + L
+
+                if rope[i-1].row > rope[i].row and rope[i-1].col > rope[i].col:
+                    rope[i] += up + right
+                elif rope[i-1].row > rope[i].row and rope[i-1].col < rope[i].col:
+                    rope[i] += up + left
+                elif rope[i].row > rope[i-1].row and rope[i-1].col > rope[i].col:
+                    rope[i] += down + right
+                else:
+                    rope[i] += down + left
+            elif abs(rope[i-1].col - rope[i].col) + abs(rope[i-1].row-rope[i].row) > 1:
+                if rope[i-1].row == rope[i].row:
+                    if rope[i-1].col > rope[i].col:
+                        rope[i]+=right
+                    else:
+                        rope[i]+=left
+                    
+                elif rope[i-1].col == rope[i].col:
+                    if rope[i-1].row > rope[i].row:
+                        rope[i]+=up
+                    else:
+                        rope[i]+=down
+        tailMoves2.append(rope[9])
+
+print(len(tailMoves2))
+
+new_list = []
+
+[new_list.append(item) for item in tailMoves2 if item not in new_list]
+print(f"Positions visited with rope[9] : {len(new_list)}")
+# expected : 2405

@@ -47,3 +47,6 @@ In Python with [this help](https://github.com/jonathanpaulson/AdventOfCode/blob/
 In Python, struggle with indexes
 ### Part 2 Done
 In Python too !
+
+## Day Nine Done
+In Python
