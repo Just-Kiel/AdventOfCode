@@ -56,3 +56,9 @@ In Python
 
 ## Day Eleven Done
 In Python
+
+## Day Twelve
+### Part 1 Done
+In Python with look on [this](https://python.plainenglish.io/difficult-python-question-9-shortest-paths-in-a-maze-361d51c53575)
+### Part 2 Done
+In Python
