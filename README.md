@@ -62,3 +62,7 @@ In Python
 In Python with look on [this](https://python.plainenglish.io/difficult-python-question-9-shortest-paths-in-a-maze-361d51c53575)
 ### Part 2 Done
 In Python
+
+## Day Thirteen
+### Part 1 Done
+In Python with [help](https://github.com/womogenes/AoC-2022-Solutions/blob/main/day_13/day_13_p1.py)
