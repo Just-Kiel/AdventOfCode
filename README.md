@@ -66,3 +66,5 @@ In Python
 ## Day Thirteen
 ### Part 1 Done
 In Python with [help](https://github.com/womogenes/AoC-2022-Solutions/blob/main/day_13/day_13_p1.py)
+### Part 2 Done
+In Python with [help](https://github.com/womogenes/AoC-2022-Solutions/blob/main/day_13/day_13_p2.py) but I understood it and manipulate it
