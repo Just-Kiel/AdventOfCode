@@ -11,3 +11,4 @@ Done in Python 3.9.0
 - Day 6: Done with ⭐⭐ (within 20 minutes)
 - Day 7: Failed
 - Day 8: Done with ⭐
+- Day 9: Done with ⭐⭐
