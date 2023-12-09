@@ -46,7 +46,7 @@ while index < len(infoLine):
     index += 2
     
 newInstruction = True
-for index, seed in enumerate(seeds):
+for index in range(len(seeds)):
     newInstruction = True
     for line in Lines[2:]:
         line = line.strip()

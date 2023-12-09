@@ -10,3 +10,4 @@ Done in Python 3.9.0
 - Day 5: Failed because of memory error (Update : now no memory error but still failed) (Update 2 : Done with ⭐)
 - Day 6: Done with ⭐⭐ (within 20 minutes)
 - Day 7: Failed
+- Day 8: Done with ⭐
