@@ -31,20 +31,22 @@ for line in Lines:
             break
         if line[0].count(line[0][i]) == 3:
             remaining = line[0].copy()
-            remaining.remove(line[0][i])
-            for j in range(2):
-                if remaining.count(remaining[j]) == 2:
-                    typeHand = 5
-                    break
-                else :
-                    typeHand = 4
+            remaining = [x for x in remaining if x != line[0][i]]
+            if remaining[0] == remaining[1]:
+                typeHand = 5
+            else :
+                typeHand = 4
             break
         if line[0].count(line[0][i]) == 2:
             remaining = line[0].copy()
-            remaining.remove(line[0][i])
+            remaining = [x for x in remaining if x != line[0][i]]
+            assert len(remaining) == 3
             for j in range(3):
                 if remaining.count(remaining[j]) == 2:
                     typeHand = 3
+                    break
+                elif remaining.count(remaining[j]) == 3:
+                    typeHand = 5
                     break
                 else :
                     typeHand = 2
@@ -53,15 +55,13 @@ for line in Lines:
 
     cards.append([line[0], int(line[1]), typeHand])
 
-cards = sorted(sorted(cards, key= lambda x: x[0], reverse=True), key= lambda x: x[2], reverse=True)
-print(cards)
+cards = sorted(sorted(cards, key= lambda x: x[0]), key= lambda x: x[2])
 
-result = [(len(cards)-index) * card[1] for index, card in enumerate(cards)]
+result = [(index+1) * card[1] for index, card in enumerate(cards)]
 result = sum(result)
 
 print("Result : {}".format(result))
-# 249075897 wrong
-# 249576397 wrong
+
 print ("Day {} - Part two !".format(dayNumber))
 result = 0
 
