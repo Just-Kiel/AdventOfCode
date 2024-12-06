@@ -7,4 +7,5 @@ This repository contains my solutions to the [Advent of Code](https://adventofco
 .---': ~ '(~), ~|        | >@>O< o-_/.()__------|   3 **
 |#..#'. ~ " ' ~ |        |>O>o<@< \____       .'|   4 **
 |_.~._@'.. ~ ~ *|        | _| |_    ..\_\_ ..'* |   5 **
+| ||| @@@@'''...|        |...     .'  '.'''../..|   6 **
 ```
