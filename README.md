@@ -4,4 +4,6 @@ This repository contains my solutions to the [Advent of Code](https://adventofco
 ```
 ' . .  ' ____    '   '  * . '  '     ' . <o   . .       
 ________/O___\__________|_________________O______   1 **
+   _______||_________                                   
+   | _@__ || _o_  '.|_ _________________________    2 *
 ```
